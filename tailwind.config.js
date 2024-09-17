@@ -9,8 +9,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        ABeeZee: 'var(--font-abeezee)',
+        Inter: 'var(--font-inter)'
+      },
       colors:{
-      
       
 	      background: "var(--background)",
         foreground: "var(--foreground)",
